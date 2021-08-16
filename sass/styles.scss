@@ -1,0 +1,19 @@
+/** SASS TEMPLATE
+To get started with sass first we did npm init in terminal. So a json file will be ceated
+Then npm i -g sass
+Then we created a folder named sass inside which we created styles.scss
+In json file we add   
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/styles.scss styles.css --watch"   We added this line. So it creates styles.css
+  },
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+
+@import 'include/variables';
+@import 'include/global';
+@import 'include/typography';
+@import 'include/color';
+@import 'include/top-sale';
+@import 'include/special-price';

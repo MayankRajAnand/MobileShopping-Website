@@ -1,0 +1,10 @@
+header .font-rale a:hover{
+    opacity:40%;
+    text-decoration: none;
+}
+nav li:hover{
+    opacity:40%;
+}
+ #filters button:hover{
+    opacity:30%;
+}
